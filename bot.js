@@ -2,12 +2,12 @@ const mineflayer = require('mineflayer');
 const config = require('./config.json');
 
 const bot = mineflayer.createBot({
-  host: config.serverHost,
-  port: config.serverPort,
-  username: config.botUsername,
+  host: config.Noobhackgang.aternos.me,
+  port: config.16782,
+  username: config.Welcome,
   auth: 'offline',
   version: false,
-  viewDistance: config.botChunk
+  viewDistance: config.4
 });
 
 let movementPhase = 0;
